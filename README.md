@@ -7,7 +7,9 @@ swift3.0轻量级的自动布局
         //距离父控件左100，右100，上20，高60
         myView.left(100).right(100).top(20).height(100)
         myView.backgroundColor = UIColor.red
-        ![image](https://github.com/wordlesser/AutoLayout/blob/master/Source/1.png)
+
+![image](https://github.com/wordlesser/AutoLayout/blob/master/Source/1.png)
+
 *
         //MARK: 由子控件确定父控件大小
         let myView = self.view.createSubView()
