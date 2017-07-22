@@ -8,6 +8,7 @@ swift3.0轻量级的自动布局
         myView.left(100).right(100).top(20).height(100)
         myView.backgroundColor = UIColor.red
 ![image](https://github.com/wordlesser/AutoLayout/blob/master/Source/1.png)
+
 *
         //MARK: 由子控件确定父控件大小
         let myView = self.view.createSubView()
@@ -29,6 +30,7 @@ swift3.0轻量级的自动布局
         myLabel.text = "test"
         mylabel.backgroundColor = UIColor.green
 ![image](https://github.com/wordlesser/AutoLayout/blob/master/Source/2.png)
+
 *
         //MARK: 实现scrollview的自动布局
         let myScv = self.view.createSubScrollView()
@@ -53,6 +55,7 @@ swift3.0轻量级的自动布局
         myIv1.image = UIImage(named: "IMG_5108.JPG")
         myIv1.contentMode = .scaleAspectFit
 ![image](https://github.com/wordlesser/AutoLayout/blob/master/Source/scrollView.gif)
+
 *
         //MARK: 实现view的自动布局，适用于tableviewCell
         let vContent1 = self.view.createSubView()
