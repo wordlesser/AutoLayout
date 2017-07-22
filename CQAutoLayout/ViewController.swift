@@ -24,13 +24,13 @@ class ViewController: UIViewController {
     
     
     func test() {
-//        let btnTest = self.view.createSubButton()
-//        btnTest.left(10).width(70).top(50).height(40)
-//        btnTest.backgroundColor = UIColor.red
-//        btnTest.setTitle("click me", for: UIControlState.normal)
-//        btnTest.titleLabel?.font = UIFont.systemFont(ofSize: 11)
-//        btnTest._model = ["info": "每个view都可以动态的添加一个自己的附加属性保存一些信息，在需要的时候可以很方便的取出来"]
-//        btnTest.addTarget(self, action: #selector(self.btnTestClick(_:)), for: UIControlEvents.touchUpInside)
+        let btnTest = self.view.createSubButton()
+        btnTest.left(10).width(70).top(50).height(40)
+        btnTest.backgroundColor = UIColor.red
+        btnTest.setTitle("click me", for: UIControlState.normal)
+        btnTest.titleLabel?.font = UIFont.systemFont(ofSize: 11)
+        btnTest._model = ["info": "每个view都可以动态的添加一个自己的附加属性保存一些信息，在需要的时候可以很方便的取出来"]
+        btnTest.addTarget(self, action: #selector(self.btnTestClick(_:)), for: UIControlEvents.touchUpInside)
         
         let testStr = "测试label的自动布局，\n测试label的自动布局，\n测试label的自动布局，\n测试label的自动布局，\n测试label的自动布局"
         //MARK: 最基础的

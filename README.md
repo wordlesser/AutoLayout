@@ -1,16 +1,16 @@
 # AutoLayout
 swift3.0轻量级的自动布局
 ## 用法
-*       
-        //MARK: 最基础的
+###	1.将UIView_AutoLayout.swift拖入工程
+###	2.代码如下：
+*		//MARK: 最基础的
         let myView = self.view.createSubView()
         //距离父控件左100，右100，上20，高60
         myView.left(100).right(100).top(20).height(100)
         myView.backgroundColor = UIColor.red
 ![image](https://github.com/wordlesser/AutoLayout/blob/master/Source/1.png)
 
-*
-        //MARK: 由子控件确定父控件大小
+*		//MARK: 由子控件确定父控件大小
         let myView = self.view.createSubView()
         //距离父控件左100，右100，上20
         myView.left(100).right(100).top(20)
@@ -31,8 +31,7 @@ swift3.0轻量级的自动布局
         mylabel.backgroundColor = UIColor.green
 ![image](https://github.com/wordlesser/AutoLayout/blob/master/Source/2.png)
 
-*
-        //MARK: 实现scrollview的自动布局
+*		//MARK: 实现scrollview的自动布局
         let myScv = self.view.createSubScrollView()
         myScv.left(100).right(100).bottom(30, toItem: myView).height(150)
         myScv.backgroundColor = UIColor.brown
@@ -56,8 +55,7 @@ swift3.0轻量级的自动布局
         myIv1.contentMode = .scaleAspectFit
 ![image](https://github.com/wordlesser/AutoLayout/blob/master/Source/scrollView.gif)
 
-*
-        //MARK: 实现view的自动布局，适用于tableviewCell
+*		//MARK: 实现view的自动布局，适用于tableviewCell
         let vContent1 = self.view.createSubView()
         vContent1.left(100).right(100).bottom(30, toItem: myScv)
         vContent1.backgroundColor = UIColor.cyan
@@ -75,3 +73,18 @@ swift3.0轻量级的自动布局
         myIv2.image = UIImage(named: "IMG_5108.JPG")
         myIv2.contentMode = .scaleAspectFit
 ![image](https://github.com/wordlesser/AutoLayout/blob/master/Source/3.png)
+
+##	License
+Copyright 2017 wordlesser
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.

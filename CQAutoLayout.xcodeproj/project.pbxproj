@@ -17,7 +17,6 @@
 		FB3C277E1F233FEB002D71AA /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3C277A1F233FEB002D71AA /* 2.png */; };
 		FB3C277F1F233FEB002D71AA /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3C277B1F233FEB002D71AA /* 3.png */; };
 		FB3C27801F233FEB002D71AA /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3C277C1F233FEB002D71AA /* 1.png */; };
-		FB3C27811F233FEB002D71AA /* scrollView.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FB3C277D1F233FEB002D71AA /* scrollView.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +32,6 @@
 		FB3C277A1F233FEB002D71AA /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		FB3C277B1F233FEB002D71AA /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		FB3C277C1F233FEB002D71AA /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		FB3C277D1F233FEB002D71AA /* scrollView.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = scrollView.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +83,6 @@
 				FB3C277A1F233FEB002D71AA /* 2.png */,
 				FB3C277B1F233FEB002D71AA /* 3.png */,
 				FB3C277C1F233FEB002D71AA /* 1.png */,
-				FB3C277D1F233FEB002D71AA /* scrollView.mp4 */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -156,7 +153,6 @@
 				FB3C27491F22FC7B002D71AA /* Assets.xcassets in Resources */,
 				FB3C27471F22FC7B002D71AA /* Main.storyboard in Resources */,
 				FB3C27801F233FEB002D71AA /* 1.png in Resources */,
-				FB3C27811F233FEB002D71AA /* scrollView.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +333,7 @@
 				FB3C27521F22FC7B002D71AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
